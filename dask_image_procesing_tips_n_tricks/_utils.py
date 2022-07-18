@@ -39,7 +39,7 @@ def make_dask_stack_from_folder(folder: str, prefix: str):
     return da.stack(dask_arrays, axis=0)
 
 # TODO docstring
-# Inspired by notebook by talley:
+# Inspired by notebook by Talley Lambert:
 # https://github.com/tlambert03/napari-dask-example/blob/8e41a78b7415ee9e3d4867c68ae3d93314bf1307/dask_napari.ipynb
 @curry
 def dask_clesperanto_adapter(function):
