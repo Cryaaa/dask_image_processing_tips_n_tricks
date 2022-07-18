@@ -1,4 +1,4 @@
-# Installation
+## Installation
 
 To execute the notebooks you will need to install a few libraries. I recommend installing [devbio-napari](https://github.com/haesleinhuepf/devbio-napari), which will include all the image analysis tools needed in napari. You can do this by creating a new conda environment:
 
@@ -19,6 +19,10 @@ conda activate dask-processing-env
 pip install graphviz
 ```
 
-# Running the Notebooks
+## Running the Notebooks
 
 All notebooks and files to run them are located in the `docs` folder. If you follow the order of the notebooks there should not be any problems in running the code yourself. The only changes that need to be made in order to run them is modifying the location of the files that we process. Every time you see a folder location variable or zarr file location you need to add the locations specific to your system.
+
+## License
+
+Distributed under the terms of the [BSD-3] license all code contained is open source
