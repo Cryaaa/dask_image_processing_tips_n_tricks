@@ -15,11 +15,11 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
     
-    name='dask_timelapse_processing_utilities',
+    name='dask_image_procesing_tips_n_tricks',
     
     version='0.0.1',  
     
-    description='A library containing useful functions for timelapse processing with dask',  
+    description='A library containing useful functions and examples for timelapse processing with dask',  
     
     long_description=long_description,
     
