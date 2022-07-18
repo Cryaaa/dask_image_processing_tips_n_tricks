@@ -1,0 +1,22 @@
+!!python/object:napari_workflows._workflow.Workflow
+_tasks:
+  Result of gaussian_blur (clesperanto): !!python/tuple
+  - !!python/name:pyclesperanto_prototype.gaussian_blur ''
+  - Rescaled
+  - null
+  - 1.0
+  - 1.0
+  - 0.0
+  Result of top_hat_sphere (clesperanto): !!python/tuple
+  - !!python/name:pyclesperanto_prototype.top_hat_sphere ''
+  - Result of gaussian_blur (clesperanto)
+  - null
+  - 5.0
+  - 5.0
+  - 0.0
+  Result of voronoi_otsu_labeling (clesperanto): !!python/tuple
+  - !!python/name:pyclesperanto_prototype.voronoi_otsu_labeling ''
+  - Result of top_hat_sphere (clesperanto)
+  - null
+  - 2.0
+  - 2.0
